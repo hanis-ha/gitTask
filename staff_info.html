@@ -56,7 +56,6 @@
             color: #555;
             margin: 8px 0;
         }
-
         .staff-card p:first-of-type {
             font-weight: bold;
             color: #333;
@@ -64,7 +63,14 @@
 
         .staff-container {
             margin-bottom: 40px;
+
         }
+       @media (max-width: 600px) {
+            .staff-container {
+                flex-direction: column;
+                align-items: center;
+            }
+        }     
     </style>
 </head>
 
